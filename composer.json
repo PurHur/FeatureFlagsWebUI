@@ -1,0 +1,21 @@
+{
+    "name": "purhur/feature-flags-web-ui",
+    "description": "Web UI for the Feature Flags component",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PurHur",
+            "email": "purhur@purh.pw"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "FeatureFlagsWebUI\\": "src/" }
+    },
+    "require": {
+        "purhur/feature-flags": "*",
+        "react/http": "^0.8.4",
+        "clue/buzz-react": "^2.5"
+    },
+    "minimum-stability": "dev"
+}
